@@ -1,7 +1,80 @@
-h1 {
+body {
   font-family: "Poppins", sans-serif;
+  background: #272044;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/oradea-travel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 200px 0;
+}
+
+header h1 {
   font-size: 96px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 144px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+header h3 {
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 5px;
+  margin: 30px 0;
+}
+
+header a {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding: 16px 32px;
+  margin-top: 32px;
+  color: #272044;
+  text-decoration: none;
+  background: white;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+  header a {
+    font-size: 12px;
+    line-height: 1;
+    padding: 12px 28px;
+    margin-top: 28px;
+  }
 }
