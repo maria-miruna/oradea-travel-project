@@ -11,7 +11,7 @@ header {
   background-position: center;
   text-align: center;
   color: white;
-  padding: 200px 0;
+  padding: 160px 0;
 }
 
 header h1 {
@@ -71,7 +71,7 @@ header a {
   header h3 {
     font-size: 12px;
   }
-  header a {
+  header h3 {
     font-size: 12px;
     line-height: 1;
     padding: 12px 28px;
