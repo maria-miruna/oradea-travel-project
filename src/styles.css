@@ -4,8 +4,9 @@ body {
 }
 
 section {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 100px;
 }
 
 header {
@@ -56,6 +57,35 @@ header a {
   display: inline-block;
 }
 
+main {
+  background: white;
+  color: #272044;
+}
+
+main h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  opacity: 0.3;
+  letter-spacing: 5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+main h4 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+
+main p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
@@ -66,7 +96,6 @@ footer {
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 100px;
 }
 
 footer h3 {
@@ -104,12 +133,25 @@ footer a {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 64px;
 }
 
 .grid div h3 {
   white-space: nowrap;
+}
+
+.responsive-img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.three-columns-grid-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.two-columns-grid {
+  grid-template-columns: 1fr 1fr;
 }
 
 @media (max-width: 960px) {
@@ -127,19 +169,20 @@ footer a {
   header h3 {
     font-size: 12px;
   }
-  header h3 {
+  header a {
     font-size: 12px;
     line-height: 1;
     padding: 12px 28px;
     margin-top: 28px;
   }
-  footer {
-    padding: 40px;
-  }
   footer p {
     margin: 0;
   }
+  section {
+    padding: 30px;
+  }
   .grid {
     grid-template-columns: 1fr;
+    grid-gap: 32px;
   }
 }
