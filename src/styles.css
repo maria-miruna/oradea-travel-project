@@ -140,6 +140,18 @@ footer a {
   white-space: nowrap;
 }
 
+.three-columns-grid-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.two-columns-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+.three-columns-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .secondary {
   background: #f8f8f8;
 }
@@ -203,22 +215,14 @@ footer a {
   aspect-ratio: 1/1;
 }
 
+.instagram-embed {
+  margin: 30px 0;
+}
+
 .responsive-img {
   width: 100%;
   margin: 0 auto;
   display: block;
-}
-
-.three-columns-grid-with-first-narrow {
-  grid-template-columns: 1fr 2fr 2fr;
-}
-
-.two-columns-grid {
-  grid-template-columns: 1fr 1fr;
-}
-
-.three-columns-grid {
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media (max-width: 960px) {
@@ -248,6 +252,7 @@ footer a {
   section {
     padding: 30px;
   }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
