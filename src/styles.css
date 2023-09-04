@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: #272044;
@@ -226,9 +230,6 @@ footer a {
 }
 
 @media (max-width: 960px) {
-  header {
-    padding: 60px 0;
-  }
   header h1 {
     font-size: 48px;
   }
