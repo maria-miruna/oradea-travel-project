@@ -229,7 +229,7 @@ footer a {
   display: block;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 960px) {  
   header h1 {
     font-size: 48px;
   }
